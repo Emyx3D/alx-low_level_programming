@@ -8,7 +8,7 @@
 int _atoi(char *s)
 {
 	short boolean;
-	int i, minum, result;
+	int i, minus, result;
 
 	i = minus = result = boolean = 0;
 	minus = -1;
@@ -28,5 +28,5 @@ int _atoi(char *s)
 		i++;
 	}
 	result *= minus;
-	return (result)
+	return (result);
 }
