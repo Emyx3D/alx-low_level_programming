@@ -23,7 +23,7 @@ int _atoi(char *s)
 			result *= 10;
 			result -= (s[i] - '0');
 			boolean = 1;
-		}else if (boolean == 1)
+		} else if (boolean == 1)
 			break;
 		i++;
 	}
