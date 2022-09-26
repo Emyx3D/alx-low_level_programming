@@ -4,10 +4,10 @@
  * needle in the string
  * @haystack: entire string
  * @needle: substring
- * Return: pointer to the begining of located substrng 
+ * Return: pointer to the begining of located substring
  * NULL if the substring is not found
  */
-char *strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	char *rhaystack;
 	char *qneedle;
